@@ -7,7 +7,7 @@ on:
 
 jobs:
   buildx:
-    runs-on: ubuntu-latest
+    runs-on: $RUN_ON
     steps:
       -
         name: Checkout
