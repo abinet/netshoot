@@ -7,7 +7,7 @@ on:
 
 jobs:
   buildx:
-    runs-on: $RUN_ON
+    runs-on: self-hosted
     steps:
       -
         name: Checkout
